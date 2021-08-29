@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1299px) {
+    /* For tablets: */
+    .content-right .contents .content__item {
+        flex: 1 0 30%;
+    }
+
+    .sidebar {
+        width: 72px;
+    }
+
+    .sidebar .items-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar .items-mobile .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sidebar .items-mobile .item {
+        margin: 15px 0;
+    }
+
+    .sidebar .items-mobile .item h3 {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+
+    .sidebar .items-mobile .item svg{
+        width: 24px;
+        height: 24px;
+    }
+
+    .sidebar .items {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    /* For mobile: */
+    .content-right .contents .content__item {
+        flex: 1 0 46%;
+    }
+
+    .watch .secondary .item {
+        flex-direction: column;
+    }
+
+    .item .body {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .content-right .contents .content__item {
+        flex: 1 0 46%;
+    }
+
+    .sidebar {
+        width: 0;
+    }
+
+    .sidebar .items-mobile {
+        display: none;
+    }
+
+    .header .end {
+        display: none;
+    }
+
+    .watch {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .watch .primary .video {
+        margin: 0;
+    }
+
+    .watch .secondary .item {
+        flex-direction: row;
+    }
+
+    .item .body {
+        margin-left: 1rem;
+    }
+
+    .header .start .img {
+        width: 100px;
+    }
+
+    .watch .primary .content .content__info .primary-info,
+    .watch .primary .content .content__info .primary-info .controls {
+        flex-wrap: wrap;
+    }
+
+    .watch .primary .content {
+        margin: 0 10px 10px 10px;
+    }
+
+    .watch .secondary {
+        width: calc(402px - 17px);
+        margin: 0 10px;
+    }
+
+    .top-row .subcribe {
+        font-size: 7px;
+        font-weight: 600;
+    }
+
+    .video iframe {
+        height: 300px;
+    }
+
+    .header .center .voice-search {
+        display: none;
+    }
+
+    .content-right .filter {
+        display: none;
+    }
+    
+    .content-right .contents {
+        height: calc(100vh - 56px);
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    /* For mobile: */
+    .content-right .contents .content__item {
+        flex: 1 0 46%;
+    }
+
+    .watch {
+        height: 107vh;
+    }
+}
