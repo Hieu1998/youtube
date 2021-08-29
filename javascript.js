@@ -961,7 +961,7 @@ function renderVideos() {
     for(getVideo of listVideos) {
         video += `
             <div class="content__item">
-                <a href="/watch.html?id=${getVideo.id}">
+                <a href="./watch.html?id=${getVideo.id}">
                     <div class="item__img">
                         <img src="${getVideo.thumbnail}" alt="">
                         <div class="watch-later">
@@ -976,11 +976,11 @@ function renderVideos() {
                     </div>
                 </a>
                 <div class="item__body">
-                    <a href="/watch.html?id=${getVideo.id}">
+                    <a href="./watch.html?id=${getVideo.id}">
                         <img src="${getVideo.channelAvatar}" alt="">
                     </a>
                     <div class="details">
-                        <a href="/watch.html?id=${getVideo.id}">
+                        <a href="./watch.html?id=${getVideo.id}">
                             <h1 class="name-video">${getVideo.title}</h1>
                         </a>
                         <h3>${getVideo.author} <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"><g class="style-scope yt-icon"><path d="M12,2C6.5,2,2,6.5,2,12c0,5.5,4.5,10,10,10s10-4.5,10-10C22,6.5,17.5,2,12,2z M9.8,17.3l-4.2-4.1L7,11.8l2.8,2.7L17,7.4 l1.4,1.4L9.8,17.3z" class="style-scope yt-icon"></path></g></svg></h3>
@@ -1135,7 +1135,7 @@ function renderVideos() {
         listVideo += `
             <div class="item">
                 <div class="thumbnail">
-                    <a href="/watch.html?id=${getVideo.id}">
+                    <a href="./watch.html?id=${getVideo.id}">
                         <img src="${getVideo.thumbnail}" alt="">
                         <div class="time-video">
                             <span>${getVideo.time}</span>
@@ -1144,7 +1144,7 @@ function renderVideos() {
                 </div>
                 <div class="body">
                     <div class="title">
-                        <a href="/watch.html?id=${getVideo.id}">
+                        <a href="./watch.html?id=${getVideo.id}">
                             <h3>${getVideo.title}</h3>
                         </a>
                     </div>
