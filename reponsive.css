@@ -106,7 +106,7 @@
     }
 
     .watch .secondary {
-        width: calc(402px - 17px);
+        width: 355px;
         margin: 0 10px;
     }
 
@@ -140,5 +140,9 @@
 
     .watch {
         height: 107vh;
+    }
+
+    .header .center .form-search input {
+        width: 10px;
     }
 }
