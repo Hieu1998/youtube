@@ -111,7 +111,7 @@
     }
 
     .top-row .subcribe {
-        font-size: 7px;
+        font-size: 13px;
         font-weight: 600;
     }
 
@@ -139,7 +139,7 @@
     }
 
     .watch {
-        height: 107vh;
+        height: 92vh;
     }
 
     .header .center .form-search input {
